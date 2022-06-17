@@ -21,7 +21,6 @@ class helloKurdistan extends StatelessWidget {
             title: Text('Kurdistan'),
             backgroundColor: Color.fromARGB(255, 206, 64, 3)),
         body: Container(
-          
           margin: EdgeInsets.symmetric(vertical: 200),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -30,7 +29,6 @@ class helloKurdistan extends StatelessWidget {
                 borderRadius: BorderRadius.circular(30.0),
                 child:
                     Image.network('https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Flag_of_Kurdistan.svg/1200px-Flag_of_Kurdistan.svg.png'),
-
               ),
               Text(
                 'Hello Kurdistan',
@@ -39,8 +37,10 @@ class helloKurdistan extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
                     fontSize: 24.0),
-              )
+              ),
+              
             ],
+             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           ),
         ),
       ),
