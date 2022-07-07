@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:test/user_profile.dart';
+import 'package:test/app.dart';
 
 
 void main() {
-  runApp(UserProfile());
+  runApp(App());
 }
 
 
