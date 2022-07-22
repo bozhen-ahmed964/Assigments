@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/future_screen_view.dart';
-
+import 'package:test/screen/main_screen.dart';
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
@@ -8,8 +7,8 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner : false,
-      home: FutureScreenView(),
+      debugShowCheckedModeBanner: false,
+      home: MainScreen(),
     );
   }
 }
